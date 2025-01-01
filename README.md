@@ -20,7 +20,7 @@ Import the class named DynamicFrustumCulling.CS into your assets folder
 Apply this on the parent game object's transform under which all of the dynamic objects are placed
 The class will fetch the mesh renderers automatically
 
-Adjust these two variabled -->
+Adjust these two variables -->
 
 [Header("Object References")]
 [SerializeField] private Transform playerTransform;
@@ -28,6 +28,6 @@ Adjust these two variabled -->
 
 <--
 
-You can assign player transform manually or give it a player tag name so it can fetch player transform.
+You can assign player transform manually or give it a player tag so it can fetch player transform.
 
 ```
